@@ -127,7 +127,7 @@
         <div class="numbers">
             <div class="row row1">
                 <div class="col-4">
-                    <button class="btn btn-outline" id="all-clear">AC</button>
+                    <button class="btn btn-outline" id="all-clear" value="">AC</button>
                 </div>
                 <div class="col-4">
                     <button class="btn btn-outline" id="delete">DEL</button>
@@ -266,7 +266,7 @@
             input.value = temp
         })
         all_clear.addEventListener("click", () => {
-            input.value = 0
+            input.value = all-clear.value
         })
 
 
@@ -281,3 +281,4 @@
 
 
 </html>
+
